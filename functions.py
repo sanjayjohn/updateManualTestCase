@@ -98,7 +98,7 @@ def updateManualTestCase(className, methodName):
                     field['field_value_name'] = 'Yes'
                     updateRequired = True
                 if field['field_name'] == 'Automation Content' and field['field_value'] == '':
-                    field['field_value'] = testCase + '#' + methodName
+                    field['field_value'] = className + '#' + methodName
             # print(testCaseJson)
             if updateRequired:
                 try:
