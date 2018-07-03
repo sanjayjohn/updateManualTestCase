@@ -254,3 +254,5 @@ def get_test_cycle():
     if testcycleId is None:
         testcycleId = post_test_cycle()
     return testcycleId
+
+post_all_tests()

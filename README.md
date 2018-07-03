@@ -51,3 +51,13 @@ These commands will install the necessary modules required to run the python scr
 **project\_id:** The Project Id 
 
 Open the conf.json file and update with your personal information. Enter your own qTest URL and API Token found in the qTest Manager Environment.
+
+## Running Automation from Command Prompt:
+
+Mac: `python3 functions.py`
+
+Windows: `python functions.py`
+
+This will parse the results in the TestResult.xml, and upload results to qTest. It will build test cases if they do not exist, and it will convert manual test cases to automatic ones if they already exist.
+
+
