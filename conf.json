@@ -1,0 +1,8 @@
+{
+  "git_url": "Git Repository Url",
+  "local_repository": "SeleniumDemoProject",
+  "qtest_api_token": "Your API Token",
+  "qtest_url": "Your Base qTest URL",
+  "project_id": "Your Project Id"
+
+}
