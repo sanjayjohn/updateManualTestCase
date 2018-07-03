@@ -1,7 +1,6 @@
 import json
 import pathlib
 import requests
-import sys
 import time
 import base64
 
@@ -173,7 +172,7 @@ def post_all_tests():
 
     testLogUrl = baseUrl.format(qTestUrl, projectId)
     try:
-        update = sys.argv[2]
+        update = 'update'
         if update == 'update':
             testCycle = get_test_cycle()
         else:
